@@ -65,6 +65,11 @@ public class BioAct extends AppCompatActivity implements View.OnClickListener {
         progressDialog = new ProgressDialog(this, R.style.MyTheme);
         progressDialog.show();
 
+
+
+
+
+
         // کد ارسال درخواست به سمت سرور
         StringRequest request = new StringRequest
                 (Request.Method.GET, Config.LinkBio, new Response.Listener<String>() {
