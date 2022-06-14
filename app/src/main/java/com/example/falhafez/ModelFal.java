@@ -1,6 +1,6 @@
 package com.example.falhafez;
 
-// ایجاد یک مدل بر اساس API برای شاعران
+// ایجاد یک مدل بر اساس API برای فال
 
 public class ModelFal
 {
@@ -11,7 +11,6 @@ public class ModelFal
     String fullUrl;
     String plainText;
     String htmlText;
-
 
     public int getId() {
         return id;
