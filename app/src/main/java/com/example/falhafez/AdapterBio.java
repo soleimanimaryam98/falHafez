@@ -22,8 +22,6 @@ class AdapterBio extends RecyclerView.Adapter<AdapterBio.MyHolder> {
         this.c = c;
     }
 
-
-//
     @Override
     public MyHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(c).inflate(R.layout.layout_bio, parent, false);
@@ -38,7 +36,6 @@ class AdapterBio extends RecyclerView.Adapter<AdapterBio.MyHolder> {
         holder.BirthYearInLHijri.setText(""+modelBio.getBirthYearInLHijri());
         holder.DeathYearInLHijri.setText(""+modelBio.getDeathYearInLHijri());
         holder.BirthPlace.setText(modelBio.getBirthPlace());
-
 
     }
 
