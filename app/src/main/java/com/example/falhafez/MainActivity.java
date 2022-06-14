@@ -41,10 +41,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnBiografi.setOnClickListener(this);
         btnFal.setOnClickListener(this);
-
-
-
-
     }
 
     @Override
