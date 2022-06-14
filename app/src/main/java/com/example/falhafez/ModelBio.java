@@ -1,6 +1,6 @@
 package com.example.falhafez;
 
-// ایجاد یک مدل بر اساس API برای بیوگرافی کاربران
+// ایجاد یک مدل بر اساس API برای بیوگرافی شاعران
 public class ModelBio {
     long id;
     String name;
