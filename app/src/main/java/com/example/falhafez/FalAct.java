@@ -83,7 +83,8 @@ public class FalAct extends AppCompatActivity implements View.OnClickListener{
                         showFalAct(response);
                         progressDialog.dismiss();
                     }
-                }, new Response.ErrorListener() {
+                },
+                        new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(FalAct.this, error + "", Toast.LENGTH_SHORT).show();
